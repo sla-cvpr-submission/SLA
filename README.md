@@ -1,9 +1,18 @@
 # Source Label Adaptation
 CVPR 2023 SUBMISSION - Semi-Supervised Domain Adaptation with Source Label Adaptation
 
-## Installation
+## Python version & Packages
 
-`pip install -r requirements`
+`python==3.8.13`
+
+```
+configargparse==1.5.3
+torch==1.12.0
+torchvision==0.13.0
+tensorboard==2.9.0
+Pillow==9.0.1
+numpy==1.22.3
+```
 
 ## Usage
 
