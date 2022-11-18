@@ -32,7 +32,7 @@ numpy==1.22.3
 
 2. Running
 
-Take MME + SLA on 3-shot A -> C Office-Home dataset for example:
+Take MME + SLA on 3-shot A -> C Office-Home dataset as example:
 
 ```
 python --method MME_LC --source 0 --target 1 --seed 1102 --num_iters 10000 --shot 3shot --alpha 0.3 --update_interval 500 --warmup 500 --T 0.6
