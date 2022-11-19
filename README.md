@@ -37,3 +37,7 @@ Take MME + SLA on 3-shot A -> C Office-Home dataset as example:
 ```
 python --method MME_LC --source 0 --target 1 --seed 1102 --num_iters 10000 --shot 3shot --alpha 0.3 --update_interval 500 --warmup 500 --T 0.6
 ```
+
+## Acknowledgement
+
+This code is partially based on [MME](https://github.com/VisionLearningGroup/SSDA_MME), and [DeepDA](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA).
